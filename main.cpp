@@ -57,8 +57,8 @@ int main() {
         }));
     }
 
-    for (auto& thread : threads) {
-        thread.join();
+    for (auto& thrd : threads) {
+        thrd.join();
     }
 
     std::cout << counter.get() << std::endl;
