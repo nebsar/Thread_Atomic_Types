@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Atomic_Types
+PROJECTNAME=Thread_Atomic_Types
 
 # Active Configuration
 DEFAULTCONF=Debug
